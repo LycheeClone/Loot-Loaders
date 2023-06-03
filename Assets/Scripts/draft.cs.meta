@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7a176bc9978045643b2567ec12cabd9e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CarToSpawn: {fileID: 8081715775857315670, guid: 7fdb0c7d0a31e7a4fb27cb4be75a76d5, type: 3}
+  - Rb: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
