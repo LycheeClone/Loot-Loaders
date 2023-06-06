@@ -96,6 +96,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a176bc9978045643b2567ec12cabd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarToSpawn: {fileID: 9216175183527998477}
-  Rb: {fileID: 0}
-  Speed: 6
+  Speed: 8

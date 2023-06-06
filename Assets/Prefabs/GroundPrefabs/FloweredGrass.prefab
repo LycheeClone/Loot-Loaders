@@ -424,6 +424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8413828340559168471}
+  - component: {fileID: 6717802102187003951}
   m_Layer: 0
   m_Name: FloweredGrass
   m_TagString: Untagged
@@ -453,6 +454,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6717802102187003951
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269469929456900013}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.13837738, z: 5}
+  m_Center: {x: -2.5000076, y: 0.06918869, z: -2.5}
 --- !u!1 &3387445726079528879
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,6 +561,7 @@ GameObject:
   - component: {fileID: 2096803594074611976}
   - component: {fileID: 4318163195643540859}
   - component: {fileID: 8791810481020987903}
+  - component: {fileID: 4748587991407359772}
   m_Layer: 0
   m_Name: SM_Env_Grass_14
   m_TagString: Untagged
@@ -619,3 +634,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4748587991407359772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3773468790638576386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 0.13837738, z: 5}
+  m_Center: {x: -2.5000076, y: 0.06918869, z: -2.5}

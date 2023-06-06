@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 988579769105445105}
+  - component: {fileID: -2185853971166888086}
   m_Layer: 0
   m_Name: ApartmentBlock
   m_TagString: CrossCar
@@ -137,6 +138,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2185853971166888086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988579769105445110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a176bc9978045643b2567ec12cabd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CarToSpawn: {fileID: 8081715775857315670, guid: 7fdb0c7d0a31e7a4fb27cb4be75a76d5, type: 3}
+  Rb: {fileID: 0}
+  Speed: 6
 --- !u!1001 &74306514648385748
 PrefabInstance:
   m_ObjectHideFlags: 0

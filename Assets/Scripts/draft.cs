@@ -8,13 +8,13 @@ using Random = UnityEngine.Random;
 
 public class draft : MonoBehaviour
 {
-    public GameObject CarToSpawn;
-    public Rigidbody Rb;
+    // public GameObject CarToSpawn;
+    // public Rigidbody Rb;
     public float Speed;
 
     private void Awake()
     {
-        CarToSpawn = GameObject.FindGameObjectWithTag("CrossCar");
+        //CarToSpawn = GameObject.FindGameObjectWithTag("CrossCar");
     }
 
     private void Update()
