@@ -4,31 +4,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class TreeSpawnController : MonoBehaviour
+public class BuildSpawnControllerOld : MonoBehaviour
 {
     private float _nextSpawnTime;
     [SerializeField] private float _spawnEveryXSeconds;
-    public Transform TreeSpawnPoints;
+    public Transform BuildSpawnPoints;
     public GameObject[] SpawnableObjects;
 
     private void FixedUpdate()
     {
-        SpawnTimeController();
+        SpawnTimeController2();
     }
 
-    private void SpawnTimeController()
+    private void SpawnTimeController2()
     {
         if (Time.time > _nextSpawnTime)
         {
             _nextSpawnTime += _spawnEveryXSeconds;
-            TreeSpawner(SpawnableObjects[RandomSpawnableObjectPicker()], TreeSpawnPoints);
+            BuildSpawner(SpawnableObjects[RandomSpawnableObjectPicker()], BuildSpawnPoints);
         }
     }
 
-    private void TreeSpawner(GameObject objectToSpawn, Transform newSpawnTransform)
+    private void BuildSpawner(GameObject objectToSpawn, Transform newSpawnTransform)
     {
-        GameObject spawnedObject = Instantiate(objectToSpawn, newSpawnTransform.position, newSpawnTransform.rotation);
-        spawnedObject.transform.Rotate(Vector3.up, 180f);
+        GameObject spawnedObject = Instantiate(objectToSpawn, newSpawnTransform.position, objectToSpawn.transform.rotation);
     }
 
     private int RandomSpawnableObjectPicker()

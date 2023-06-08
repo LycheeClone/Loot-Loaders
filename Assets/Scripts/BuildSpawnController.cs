@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class BuildingspawnerDeneme : MonoBehaviour
+public class BuildSpawnController : MonoBehaviour
 {
     private float _nextSpawnTime;
     [SerializeField] private float _spawnEveryXSeconds;
