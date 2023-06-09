@@ -343,7 +343,6 @@ GameObject:
   - component: {fileID: 166257260082045200}
   - component: {fileID: 166257260084938252}
   - component: {fileID: 166257260084222040}
-  - component: {fileID: 651569025631157910}
   m_Layer: 0
   m_Name: SM_Bld_OfficeOld_Large_Base_01 Variant
   m_TagString: Untagged
@@ -416,19 +415,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &651569025631157910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166257260081756258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a176bc9978045643b2567ec12cabd9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 8
 --- !u!1 &2882630791329906177
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,6 +460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1040639146831438842}
+  - component: {fileID: 4189686377103669899}
   m_Layer: 0
   m_Name: LeftSide_OfficeOld_Large_Base_01 Variant
   m_TagString: Untagged
@@ -497,3 +484,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &4189686377103669899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7134448011266387529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a176bc9978045643b2567ec12cabd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 8

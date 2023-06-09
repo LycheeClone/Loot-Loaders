@@ -2914,7 +2914,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8182563506770617360}
-  - component: {fileID: 1626650428344395340}
   m_Layer: 0
   m_Name: Pivot
   m_TagString: Untagged
@@ -3030,19 +3029,6 @@ Transform:
   m_Father: {fileID: 7728571026384053292}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1626650428344395340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2699124123890151178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a176bc9978045643b2567ec12cabd9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 8
 --- !u!1 &2745518626491046462
 GameObject:
   m_ObjectHideFlags: 0
@@ -4698,6 +4684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7728571026384053292}
+  - component: {fileID: 2557707662070975849}
   m_Layer: 0
   m_Name: LeftSideParkStyle1
   m_TagString: Untagged
@@ -4721,6 +4708,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &2557707662070975849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719738190475820907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a176bc9978045643b2567ec12cabd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 8
 --- !u!1 &4839252124099301776
 GameObject:
   m_ObjectHideFlags: 0
