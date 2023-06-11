@@ -1,13 +1,11 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class TreeSpawnController : MonoBehaviour
 {
     private float _nextSpawnTime;
-    [SerializeField] private float _spawnEveryXSeconds;
+    private float _spawnEveryXSeconds = 1.5f;
     public Transform TreeSpawnPoints;
     public GameObject[] SpawnableObjects;
 

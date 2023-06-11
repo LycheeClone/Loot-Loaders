@@ -8,15 +8,7 @@ using Random = UnityEngine.Random;
 
 public class draft : MonoBehaviour
 {
-    // public GameObject CarToSpawn;
-    // public Rigidbody Rb;
     public float Speed;
-
-    private void Awake()
-    {
-        //CarToSpawn = GameObject.FindGameObjectWithTag("CrossCar");
-    }
-
     private void Update()
     {
         //rb.AddForce(0,0,-speed*Time.deltaTime);

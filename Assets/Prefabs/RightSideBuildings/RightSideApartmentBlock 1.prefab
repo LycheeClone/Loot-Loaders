@@ -2914,7 +2914,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4807959500610162874}
-  - component: {fileID: 3476307795918101669}
   m_Layer: 0
   m_Name: Pivot
   m_TagString: Untagged
@@ -3047,19 +3046,6 @@ Transform:
   m_Father: {fileID: 1099239911998488212}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &3476307795918101669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3258188204799232482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a176bc9978045643b2567ec12cabd9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 8
 --- !u!1 &3470636913777323726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3567,6 +3553,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1099239911998488212}
+  - component: {fileID: 8242989076560156546}
   m_Layer: 0
   m_Name: RightSideApartmentBlock 1
   m_TagString: Untagged
@@ -3590,6 +3577,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8242989076560156546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4050195127978833636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a176bc9978045643b2567ec12cabd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 8
 --- !u!1 &4087695923290470977
 GameObject:
   m_ObjectHideFlags: 0
