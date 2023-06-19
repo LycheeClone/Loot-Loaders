@@ -21,11 +21,7 @@ namespace StreetController
         {
             if (other.gameObject.CompareTag("Relocator"))
             {
-                for (int i = 0; i < 1; i++)
-                {
-                    gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, 294.8391f);
-                }
-                gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, 295f);
+                gameObject.transform.Translate(0f, 0f, -160f);
             }
         }
         
